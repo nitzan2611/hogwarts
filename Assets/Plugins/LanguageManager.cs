@@ -22,6 +22,7 @@ public class LanguageManager : MonoBehaviour
     public static SystemLanguage[] availableLanguages = {
         SystemLanguage.Spanish,
         SystemLanguage.English,
+        SystemLanguage.Hebrew,
     };
 
     public static SystemLanguage? _playerLanguage = null;
